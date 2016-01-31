@@ -36,12 +36,12 @@ int main (int argc, char *argv[]) {
 			printf("test n(%d)\tsqrt(%f) = %.6f\t",++cnt,val, sqrt);
 			if (S > val) {
 				puts("too high");
-				printf(KYEL);
+				printf(KYEL);//switching the console to yellow
 				printf("\t\t=%s %f\n","the old max",max);
 				printf("\t\t=%s %f\n","the old min",min);
 				max = sqrt;//setting max to the current mid
 				printf("\t\t>%4s %f","the new max",max);
-				printf(RESET);
+				printf(RESET);//restet the console color
 			} else {
 				puts("too low");
 				printf(KBLU);
