@@ -1,2 +1,2 @@
 # sqrt-C
-computing the square root of x without &lt;math.h>
+understanding how to computing the square root of x without &lt;math.h>
